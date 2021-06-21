@@ -1,0 +1,22 @@
+{
+  "name": "fast-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fernando Souza <fernando.souza@doxacode.com.br>",
+  "license": "MIT",
+  "bin": {
+    "fast": "./bin/fast"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.6",
+    "console-symbols": "^1.0.0",
+    "ejs": "^3.1.6"
+  }
+}
