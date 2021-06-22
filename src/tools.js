@@ -24,7 +24,7 @@ exports.getTemplates = template => {
       url: this.path.join(this.env.PATH_ROOT || 'src', this.env.PATH_APP || 'app')
     },
     {
-      name: 'route',
+      name: 'routes',
       url: this.path.join(this.env.PATH_ROOT || 'src', this.env.PATH_APP || 'app', this.env.PATH_ROUTES || 'routes'),
       template: this.fs.readFileSync(this.path.join(__dirname, 'templates', 'routes.ejs')).toString()
     },
